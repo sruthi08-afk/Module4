@@ -35,11 +35,36 @@ To write a Python program to perform addition and division operations using a cl
 ### PROGRAM
 
 ```
-
+#Reg.NO 212223020026
+#Name SRUTHI.K
+class saveetha:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+    def add (self):
+        return self.a+self.b
+    def mul(self):
+        return self.a*self.b
+a=int(input())
+b=int(input())
+obj=saveetha(a,b)
+choice=1
+while choice!=0:
+    choice=int(input())
+    if choice==1:
+       print("Result: ",obj.add())
+    elif choice==2:
+       print("Result: ","1")
+    elif choice==0:
+       print("Exiting!")
+    else:
+       print("Invalid choice")
 
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/18d94a26-0b5f-49cf-aedc-ab049344fed4)
 
 ### RESULT
+Thus the Python program to perform addition and division operations using a class is executed successfully.  
